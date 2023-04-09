@@ -1,0 +1,302 @@
+.main-background {
+    background-image: url(resources/images/bg-masthead.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: lightgrey;
+    background-blend-mode: multiply;
+
+    height: 35rem;
+    width: 100%;
+}
+.w-10 {
+    width: 10%;
+}
+.btn-primary {
+    background-color: #3377FF !important;
+}
+.size-icon {
+    font-size: 3rem;
+    color: #3377FF !important;
+}
+.background-content-1 {
+    background-image: url(resources/images/bg-showcase-1.jpg);
+}
+.background-content-2 {
+    background-image: url(resources/images/bg-showcase-2.jpg);
+}
+.background-content-3 {
+    background-image: url(resources/images/bg-showcase-3.jpg);
+}
+.background-setting {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+@media (min-width: 280px) and (max-width: 480px) {
+  
+  html {
+    font-size: 12px;
+  }
+  header .res-280 {
+    width: 50%;
+  }
+  article.main-background .res-280{
+    width: 100%;
+  }
+  article.main-background .res-280 div {
+    padding: 0.5rem !important;
+  }
+  .w-10 {
+    width: 20%;
+  }
+  .res-280-card {
+    flex-direction: column;
+    height: 40rem !important;
+    padding-top: 1rem;
+  }
+  .res-280-card .card {
+    width: 100% !important;
+    padding: 0 !important;
+    flex-grow: 1;
+  }
+
+  .res-main {
+    height: 100rem !important;
+  }
+  .res-main div {
+    padding: 0 !important;
+    height: 50%;
+  }
+  .res-main p {
+    padding: 0 2rem;
+  }
+  .flex-reverse {
+    flex-wrap: nowrap !important;
+    flex-direction: column-reverse !important;
+  }
+  .res-main {
+    height: 85rem !important;
+  }
+  .res-main-1 {
+    min-height: 80rem !important;
+  }
+  .res-main-1 > div {
+    height: 100%  !important;
+  }
+  .res-main-1>div>div {
+    top: 0 !important;
+    left: 0 !important;
+    transform: translateY(0%) !important;
+    height: 100% !important;
+  }
+  .res-card-img {
+    flex-direction: column !important;
+    align-items: center;
+    height: 95%;
+  }
+  .res-card-img > div {
+    width: 90% !important;
+    align-items: center;
+  }
+  .res-card-img img {
+    width: 50%;
+  }
+  .res-back-end > div {
+    width: 100% !important;
+  }
+  footer {
+    height: 10rem !important;
+  }
+  footer > .row {
+    flex-direction: column !important;
+    align-items: center;
+  }
+  footer > .row > div {
+    width: 100% !important;
+    text-align: center !important;
+  }
+  footer .nav {
+    justify-content: center;
+  }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+  
+    html {
+        font-size: 12px;
+      }
+      header .res-280 {
+        width: 50%;
+      }
+      article.main-background .res-280{
+        width: 100%;
+      }
+      article.main-background .res-280 div {
+        padding: 0.5rem !important;
+      }
+      .w-10 {
+        width: 20%;
+      }
+      .res-280-card {
+        flex-direction: column;
+        height: 40rem !important;
+        padding-top: 1rem;
+      }
+      .res-280-card .card {
+        width: 100% !important;
+        padding: 0 !important;
+        flex-grow: 1;
+      }
+    
+      .res-main {
+        height: 100rem !important;
+      }
+      .res-main div {
+        padding: 0 !important;
+        height: 50%;
+      }
+      .res-main p {
+        padding: 0 2rem;
+      }
+      .flex-reverse {
+        flex-wrap: nowrap !important;
+        flex-direction: column-reverse !important;
+      }
+      .res-main {
+        height: 85rem !important;
+      }
+      .res-main-1 {
+        min-height: 80rem !important;
+      }
+      .res-main-1 > div {
+        height: 100%  !important;
+      }
+      .res-main-1>div>div {
+        top: 0 !important;
+        left: 0 !important;
+        transform: translateY(0%) !important;
+        height: 100% !important;
+        position: unset !important;
+      }
+      .res-card-img {
+        flex-direction: column !important;
+        align-items: center;
+        height: 95%; 
+        
+      }
+      .res-card-img > div {
+        width: 90% !important;
+        align-items: center;
+      }
+      .res-card-img img {
+        width: 50%;
+      }
+      .res-back-end > div {
+        width: 100% !important;
+      }
+      footer {
+        height: 10rem !important;
+      }
+      footer > .row {
+        flex-direction: column !important;
+        align-items: center;
+      }
+      footer > .row > div {
+        width: 100% !important;
+        text-align: center !important;
+      }
+      footer .nav {
+        justify-content: center;
+      }
+    
+  }
+  @media (min-width: 768px) and (max-width: 992px) {
+  
+    html {
+        font-size: 14px;
+      }
+      header .res-280 {
+        width: 50%;
+      }
+      article.main-background .res-280{
+        width: 100%;
+      }
+      article.main-background .res-280 div {
+        padding: 0.5rem !important;
+      }
+      .w-10 {
+        width: 20%;
+      }
+      .res-280-card {
+        flex-direction: column;
+        height: 40rem !important;
+        padding-top: 1rem;
+      }
+      .res-280-card .card {
+        width: 100% !important;
+        padding: 0 !important;
+        flex-grow: 1;
+      }
+    
+      .res-main {
+        height: 100rem !important;
+      }
+      .res-main div {
+        padding: 0 !important;
+        height: 50%;
+      }
+      .res-main p {
+        padding: 0 2rem;
+      }
+      .flex-reverse {
+        flex-wrap: nowrap !important;
+        flex-direction: column-reverse !important;
+      }
+      .res-main {
+        height: 85rem !important;
+      }
+      .res-main-1 {
+        min-height: 110rem !important;
+      }
+      .res-main-1 > div {
+        height: 100%  !important;
+      }
+      .res-main-1>div>div {
+        top: 0 !important;
+        left: 0 !important;
+        transform: translateY(0%) !important;
+        height: 100% !important;
+        position: unset !important;
+      }
+      .res-card-img {
+        flex-direction: column !important;
+        align-items: center;
+        height: 95%; 
+        
+      }
+      .res-card-img > div {
+        width: 90% !important;
+        align-items: center;
+      }
+      .res-card-img img {
+        width: 50%;
+      }
+      .res-back-end > div {
+        width: 100% !important;
+      }
+      footer {
+        height: 10rem !important;
+      }
+      footer > .row {
+        flex-direction: column !important;
+        align-items: center;
+      }
+      footer > .row > div {
+        width: 100% !important;
+        text-align: center !important;
+      }
+      footer .nav {
+        justify-content: center;
+      }
+    
+  }
